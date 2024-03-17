@@ -1,0 +1,125 @@
+* {
+  background-color: (rgb(237, 6, 91));
+}
+
+#header {
+  padding: 0 12px;
+  /* background-color: #37517e; */
+  animation: blink 5s infinite;
+  position: sticky;
+  top: 0;
+}
+@keyframes blink {
+  0% {
+    background: yellow;
+  }
+  10% {
+    background: lightgreen;
+  }
+  20% {
+    background: aqua;
+  }
+  30% {
+    background: red;
+  }
+  40% {
+    background: blue;
+  }
+  50% {
+    background: orange;
+  }
+  60% {
+    background: black;
+  }
+  70% {
+    background: green;
+  }
+  80% {
+    background: pink;
+  }
+  90% {
+    background: blueviolet;
+  }
+  100% {
+    background: gray;
+  }
+}
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  top: 0;
+}
+.logo {
+}
+.logo a {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+nav {
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 10px 0 10px 30px;
+  transition: 0.5s;
+}
+nav ul a {
+  color: white;
+  font-size: 15px;
+  white-space: nowrap;
+}
+nav ul a:hover {
+  color: #47b2e4;
+  transition: 0.5s;
+}
+
+/* ============
+Banner css
+=============== */
+
+#btn {
+  width: 182px;
+  font-size: 20px;
+  background: black;
+  /* color: white; */
+  color: white;
+  height: 95px;
+  border-radius: 20%;
+}
+
+#yes {
+  width: 182px;
+  font-size: 20px;
+  background: black;
+  /* color: white; */
+  color: yellow;
+  height: 95px;
+  border-radius: 20%;
+}
+
+#no {
+  width: 182px;
+  font-size: 20px;
+  background: black;
+  /* color: white; */
+  color: violet;
+  margin-right: 20px;
+
+  height: 95px;
+  border-radius: 20%;
+}
+
+#light {
+  width: 150px;
+}
+
+#sms {
+  font-size: 50px;
+  color: green;
+}

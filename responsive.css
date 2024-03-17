@@ -1,0 +1,12 @@
+@media screen and (max-width: 1050px) {
+  .class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .class #no {
+    margin: 20px 0;
+  }
+}
